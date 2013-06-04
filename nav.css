@@ -1,0 +1,77 @@
+ul.nav, ul.nav li.expandable ul, ul.nav li.dropdown ul {
+	list-style: none;
+	padding: 0 0;
+	margin: 0 0;
+
+	font-family: sans-serif;
+}
+
+	ul.nav.vertical li {
+		width: 100px;
+		text-align: center;
+
+		border: 1px solid #eee;
+	}
+
+	ul.nav.horizontal > li {
+		float: left;
+
+		width: 100px;
+		text-align: center;
+
+		border: 1px solid #eee;
+	}
+
+	/* Buttons */
+
+	ul.nav a {
+		display: block;
+
+		padding: 5px 5px;
+
+		text-decoration: none;
+		color: #000;
+	}
+
+	ul.nav a:hover {
+		cursor: pointer;
+
+		background-color: #efefef;
+	}
+
+	/* Dropdowns */
+	ul.nav li.dropdown ul {
+
+	}
+
+	/*wrapping div */
+	ul.nav li.dropdown div.dropdowndiv {
+		overflow: hidden;
+	}
+
+		ul.nav li.dropdown ul li {
+
+		}
+
+
+
+
+
+
+	/* Expandables */
+	ul.nav li.expandable ul {
+
+	}
+
+	/*wrapping div */
+	ul.nav li.expandable div.expandablediv {
+		overflow: hidden;
+	}
+
+		ul.nav li.expandable ul li {
+
+		}
+
+		ul.nav li.expandable div.horizontal ul li {
+			float: left;
+		}

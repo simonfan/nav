@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Module boilerplate</title>
+	
+	<!-- Set a script tag to define unit as FALSE, so that the demo page is run -->
+	<script type="text/javascript">
+		window.__unit = false;
+		window.__demo = true;
+	</script>
+
+	<script type="text/javascript" data-main="main.js" src="components/requirejs/require.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../nav.css">
+	<style type="text/css">
+
+		body {
+
+		}
+
+		.divider {
+			clear: both;
+			height: 30px;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+	<ul id="nav-horizontal" class="nav horizontal">
+		<li class="button"><a id="first" href="first">First</a></li>
+		<li class="button"><a id="second" href="second">Second</a></li>
+		<li class="dropdown">
+			<a href="#">Dropdown</a>
+			<ul>
+				<li class="button"><a href="drop1">Drop 1</a></li>
+				<li class="button"><a href="drop2">Drop 2</a></li>
+			</ul>
+		</li>
+		<li class="expandable">
+			<a href="expandables">Expandable</a>
+			<ul>
+				<li class="button"><a href="expand1">expand 1</a></li>
+				<li class="button"><a href="expand2">expand 2</a></li>
+			</ul>
+		</li>
+		<li class="button"><a id="third" href="thrid">Third</a></li>
+		<li class="button"><a id="fourth" href="fourth">Fourth</a></li>
+	</ul>
+
+
+
+	<div class="divider"></div>
+
+	<ul id="nav-vertical" class="nav vertical">
+		<li class="button"><a id="first" href="first">First</a></li>
+		<li class="button"><a id="second" href="second">Second</a></li>
+		<li class="dropdown">
+			<a href="#">Dropdown</a>
+			<ul>
+				<li class="button"><a href="drop1">Drop 1</a></li>
+				<li class="button"><a href="drop2">Drop 2</a></li>
+			</ul>
+		</li>
+		<li class="expandable">
+			<a href="expandables">Expandable</a>
+			<ul>
+				<li class="button"><a href="expand1">expand 1</a></li>
+				<li class="button"><a href="expand2">expand 2</a></li>
+			</ul>
+		</li>
+		<li class="button"><a id="third" href="thrid">Third</a></li>
+		<li class="button"><a id="fourth" href="fourth">Fourth</a></li>
+	</ul>
+
+	<br>
+	<a href="tests.html">Go to unit tests</a>
+	
+</body>
+
+</html>
