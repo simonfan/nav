@@ -1,5 +1,5 @@
-define(['jquery','buildable','backbone','underscore','_interface'],
-function(  $    , Buildable , Backbone , undef      , undef  ) {
+define(['jquery','buildable','backbone','underscore','_.mixins'],
+function(  $    , Buildable , Backbone , undef      , undef    ) {
 
 	/////////////////////////////
 	///////// Interactive Box ///
@@ -185,7 +185,8 @@ function(  $    , Buildable , Backbone , undef      , undef  ) {
 		},
 	});
 
-	var Expandable = Object.create(Interactive).extend({
+	var Expandable = Object.create(Interactive);
+	Expandable.extend({
 		_buildWrappingDiv: function() {
 			var $div = $('<div class="expandablediv"></div>')
 					.append(this.$ul)

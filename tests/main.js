@@ -9,7 +9,7 @@ require.config({
 
 		// own mods
 		'buildable': 'components/buildable/buildable',
-		'_interface': 'components/_interface/_interface',
+		'_.mixins': 'components/_.mixins/_.mixins',
 
 		// the module files go here
 		'nav': '../nav',
