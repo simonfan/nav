@@ -6,6 +6,13 @@ ul.nav, ul.nav li.expandable ul, ul.nav li.dropdown ul {
 	font-family: sans-serif;
 }
 
+ul.nav.horizontal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
 	ul.nav.vertical li {
 		width: 100px;
 		text-align: center;
