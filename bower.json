@@ -1,5 +1,5 @@
 {
-  "name": "Nav",
+  "name": "nav",
   "version": "0.0.1",
   "dependencies": {
     "jquery": "lastest",
