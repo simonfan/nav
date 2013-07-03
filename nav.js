@@ -20,9 +20,8 @@ function(  $    , Buildable , Backbone , undef      , undef    ) {
 
 			data = _.extend({}, this.defaults, data);
 
-			_.interface({
+			_.interface(data, {
 				id: 'Interactive',
-				obj: data,
 				typeofs: {
 					$li: 'object',
 					axis: 'string',
@@ -258,9 +257,8 @@ function(  $    , Buildable , Backbone , undef      , undef    ) {
 		init: function(data) {
 			data = _.defaults(data, this.defaults);
 
-			_.interface({
+			_.interface(data, {
 				id: 'Nav init',
-				obj: data,
 				typeofs: {
 					$ul: 'object',
 				}
