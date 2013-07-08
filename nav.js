@@ -30,7 +30,7 @@ function(  $    , Buildable , Backbone , undef      , undef    ) {
 				}
 			});
 
-			_.bindAll(this);
+			_.bindAll(this,'_hoveron','_hoveroff','_click');
 
 			this.$li = data.$li;
 
@@ -264,7 +264,7 @@ function(  $    , Buildable , Backbone , undef      , undef    ) {
 				}
 			});
 
-			_.bindAll(this);
+			_.bindAll(this, '_click','_hoveron','_hoveroff');
 
 			this.options = data;
 
