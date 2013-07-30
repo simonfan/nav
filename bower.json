@@ -2,14 +2,13 @@
   "name": "nav",
   "version": "0.0.1",
   "dependencies": {
-    "jquery": "lastest",
-    "underscore": "latest",
-    "backbone": "latest",
-    "requirejs": "latest",
-    "qunit": "latest",
-
+    "qunit": "*",
     "buildable": "git://github.com/simonfan/buildable.git",
-    "_.mixins": "git://github.com/simonfan/_.mixins.git"
+    "_.mixins": "git://github.com/simonfan/_.mixins.git",
+    "backbone": "~1.0.0",
+    "jquery": "~2.0.3",
+    "underscore": "*",
+    "requirejs": "*"
   },
   "main": "nav.js"
 }
